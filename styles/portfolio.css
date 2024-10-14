@@ -21,7 +21,7 @@
 .btn-primary{
   color: #FFF;
   font-size: 13px;
-  border-radius: 5px;
+  border-radius:3px;
 background: #FD6E0A;
 font-weight: 700;
 padding:10px 20px;
@@ -167,7 +167,7 @@ text-align: center;
 margin-bottom: 97px;
 }
 .about-me-des{
-  margin:20px auto
+  margin:20px auto 
 }
 .contact-container{
   width: 100%;
@@ -274,4 +274,86 @@ line-height: 28px; /* 175% */
 
 .resume-type{
   margin-bottom: 20px;
+}
+
+#my-resume{
+  max-width: 855px;
+  
+  margin:0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+ 
+
+text-align: center;
+margin-bottom: 97px;
+}
+
+.footer{
+  background: #FFF8F3;
+}
+
+.footer-left{
+  width: 49%;
+
+}
+.footer-right{
+  width:49%;
+ 
+  
+}
+
+.footer-right form{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:left ;
+  
+}
+.footer-right input ,textarea{
+  border:none;
+  margin-top: 20px;
+  padding:20px
+  
+}
+.footer-con{
+  max-width: 855px;
+ 
+  margin:20px auto 0;
+  padding:60px 0 ;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  
+ 
+
+
+
+}
+
+.footer-icon-cont{
+  max-width:100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px
+}
+.footer-title{
+  color:#181818;
+text-align:left;
+
+font-size: 25px;
+
+font-weight: 700;
+
+}
+
+.footer-des{
+
+  color: #474747;
+
+font-size: 16px;
+margin: 20px 0px;
+font-weight: 400;
 }
